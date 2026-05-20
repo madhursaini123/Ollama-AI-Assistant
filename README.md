@@ -20,3 +20,8 @@ cd ollama-ai-assistant
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+Commands inside the chat:
+/save – save conversation to Desktop
+/clear – reset conversation history
+/exit – quit
